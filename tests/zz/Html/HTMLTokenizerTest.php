@@ -2,7 +2,7 @@
 namespace zz\Html;
 use zz\Html;
 
-class HTMLTokenizerTest extends \PHPUnit_Framework_TestCase {
+class HTMLTokenizerTest extends \PHPUnit\Framework\TestCase {
 
     public function testSetState() {
         $html = '';
@@ -27,6 +27,7 @@ class HTMLTokenizerTest extends \PHPUnit_Framework_TestCase {
      * @expectedException InvalidArgumentException
      */
     public function testInvalidState() {
+        $this->expectException(\InvalidArgumentException::class);
         $html = 'text';
         $SegmentedString = new SegmentedString($html);
         $HTMLTokenizer = new HTMLTokenizer($SegmentedString, array('debug' => true));
@@ -7204,6 +7205,7 @@ class HTMLTokenizerTest extends \PHPUnit_Framework_TestCase {
     }
 
     public function testParseDOCTYPE() {
+        $this->markTestSkipped('TBD Test.');
     }
 
 }

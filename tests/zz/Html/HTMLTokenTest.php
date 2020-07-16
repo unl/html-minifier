@@ -2,7 +2,7 @@
 namespace zz\Html;
 use zz\Html;
 
-class HTMLTokenTest extends \PHPUnit_Framework_TestCase {
+class HTMLTokenTest extends \PHPUnit\Framework\TestCase {
 
     public function testGetter() {
         $html = '<img src="img.png" />';

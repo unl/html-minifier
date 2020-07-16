@@ -2,7 +2,7 @@
 namespace zz\Html;
 use zz\Html;
 
-class HTMLMinifyTest extends \PHPUnit_Framework_TestCase {
+class HTMLMinifyTest extends \PHPUnit\Framework\TestCase {
 
     protected $_test_file_dir = 'minify';
 

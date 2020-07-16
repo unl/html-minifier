@@ -2,7 +2,7 @@
 namespace zz\Html;
 use zz\Html;
 
-class HTMLNamesTest extends \PHPUnit_Framework_TestCase {
+class HTMLNamesTest extends \PHPUnit\Framework\TestCase {
 
 
     public function testGetHTMLAttrs() {
