@@ -44,7 +44,7 @@ class SegmentedStringTest extends \PHPUnit\Framework\TestCase {
      * @expectedException InvalidArgumentException
      */
     public function testSeekInvalidArgumentException() {
-        $this->expectException(\InvalidArgumentException);
+        $this->expectException(\InvalidArgumentException::class);
         $html = 'html';
         $SegmentedString = new SegmentedString($html);
         $this->assertEquals(false, $SegmentedString->seek(10, -1));
