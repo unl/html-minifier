@@ -27,6 +27,7 @@ class HTMLTokenizerTest extends \PHPUnit\Framework\TestCase {
      * @expectedException InvalidArgumentException
      */
     public function testInvalidState() {
+        $this->expectException(\InvalidArgumentException);
         $html = 'text';
         $SegmentedString = new SegmentedString($html);
         $HTMLTokenizer = new HTMLTokenizer($SegmentedString, array('debug' => true));
