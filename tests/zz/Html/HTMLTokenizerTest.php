@@ -2,7 +2,7 @@
 namespace zz\Html;
 use zz\Html;
 
-class HTMLTokenizerTest extends \PHPUnit_Framework_TestCase {
+class HTMLTokenizerTest extends \PHPUnit\Framework\TestCase {
 
     public function testSetState() {
         $html = '';

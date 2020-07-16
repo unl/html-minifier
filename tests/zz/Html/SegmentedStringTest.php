@@ -2,7 +2,7 @@
 namespace zz\Html;
 use zz\Html;
 
-class SegmentedStringTest extends \PHPUnit_Framework_TestCase {
+class SegmentedStringTest extends \PHPUnit\Framework\TestCase {
 
     public function testGet() {
         $html = 'html';
