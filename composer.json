@@ -1,5 +1,5 @@
 {
-    "name": "zaininnari/html-minifier",
+    "name": "unl/html-minifier",
     "description": "The Blink HTMLTokenizer ported to PHP.",
     "type": "library",
     "keywords": ["PHP", "Blink", "HTML minify"],
