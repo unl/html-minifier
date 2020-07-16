@@ -3,8 +3,8 @@
     "description": "The Blink HTMLTokenizer ported to PHP.",
     "type": "library",
     "keywords": ["PHP", "Blink", "HTML minify"],
-    "homepage": "https://github.com/zaininnari/html-minifier",
-    "license": "The BSD 3-Clause License",
+    "homepage": "https://github.com/unl/html-minifier",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Google inc",
