@@ -7204,6 +7204,7 @@ class HTMLTokenizerTest extends \PHPUnit\Framework\TestCase {
     }
 
     public function testParseDOCTYPE() {
+        $this->markTestSkipped('TBD Test.');
     }
 
 }
