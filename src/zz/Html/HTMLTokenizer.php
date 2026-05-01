@@ -151,6 +151,8 @@ class HTMLTokenizer {
      */
     protected $_debug = false;
 
+    protected $_option = array();
+
     public function __construct(SegmentedString $SegmentedString, $option = array()) {
         $this->_SegmentedString = $SegmentedString;
         $this->_Token = new HTMLToken();
